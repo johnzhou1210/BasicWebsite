@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(220, 220, 230);
+    margin: 25px;
+}
+
+ol {
+  line-height: .5em;
+}
+
+.img-center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table {
+    border-spacing: 50px;
+}
+
+.txt-center {
+    text-align: center;
+}
+
+.center {
+    width: 15%;
+    margin: auto;
+    
+}
