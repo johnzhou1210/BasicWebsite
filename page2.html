@@ -1,11 +1,74 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" href="css/styles.css">
-        <title> Simple integer counter </title>
-    </head>
-    
-    <h1> Simple integer counter.</h1>
-    <p> blah blah <strong>blah</strong> blah</p>
-    <a href="index.html"> Return to home page? </a>
+
+<head>
+    <link rel="stylesheet" href="/css/styles.css">
+    <title> Simple team score keeper</title>
+</head>
+
+
+<body>
+    <h1> Simple Team Score Keper.</h1>
+    <br>
+
+    <table class="outlined-table">
+        <tr class="outlined-table">
+            <td class="outlined-table">Team</td>
+            <td class="outlined-table">Score</td>
+        </tr>
+        <tr class="outlined-table">
+            <td class="outlined-table">A</td>
+            <td id="team-a-score" class="outlined-table">0</td>
+        </tr>
+        <tr class="outlined-table">
+            <td class="outlined-table">B</td>
+            <td id="team-b-score" class="outlined-table">0</td>
+        </tr>
+    </table>
+
+    <br>
+    <table class="table-wider">
+        <td><button class="large-button" id="team-a-increment">Add 1 point to Team A</button></td>
+        <td><button class="large-button" id="team-b-increment">Add 1 point to Team A</button></td>
+    </table>
+
+    <br>
+    <h2 id="lead-status">No team is currently in the lead...</h2>
+
+    <div>
+        <h3>Live reaction:</h3>
+        <br>
+        <table class="table-wider">
+            <td id="team-a-reaction">
+                <img src="images/neutral.png" alt="images/neutral.png" width="100">
+                <p>Team A is neutral.</p>
+            </td>
+            <td id="team-b-reaction">
+                <img src="images/neutral.png" alt="images/neutral.png" width="100">
+                <p>Team B is neutral.</p>
+            </td>
+        </table>
+    </div>
+
+
+    <br>
+    <button class="table-wider" id="score-reset">Reset Table</button>
+
+    <br><br>
+
+    <script src="js/scorekeeper.js"></script>
+
+</body>
+
+
+<br><br>
+<div class="pic-caption">
+    <img src="images/sports.png" alt="images/sports.png">
+    <p>Figure 1. Team activities such as sports often have an idea of keeping a score to decide which team is the winner.
+    </p>
+</div>
+
+
+<a href="/index.html"> Return to home page? </a>
+
 </html>

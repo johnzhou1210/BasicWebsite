@@ -1,5 +1,5 @@
 window.onload = () => {
-    var rndButton = document.querySelector("#rnd-button");
+    const rndButton = document.querySelector("#rnd-button");
 
     rndButton.addEventListener("click", () => {
         const tbl = document.body.querySelector("#rnd-table");

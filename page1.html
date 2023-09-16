@@ -1,59 +1,92 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" href="css/styles.css">
-        <title> Random number generator </title>
-       
-    </head>
-    
 
-    <body>
-        
+<head>
+    <link rel="stylesheet" href="css/styles.css">
+    <title> Random number generator </title>
 
-        <h1> Random Number Generator.</h1>
-        <p> Hello there! Here is a 4x4 table that generates <em>random</em> numbers <strong>from 0 to 256</strong> for you!</p>
-    
-    
-        <div class="matrix">
-            <table id="rnd-table">
-                <tr>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>0</td>
-                </tr>
-                <tr>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>0</td>
-                </tr>
-                <tr>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>0</td>
-                </tr>
-                <tr>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>0</td>
-                </tr>
-            </table>
-        </div>
-       
-    
-    
-        <h3>To generate some random numbers, simply click the button below.</h3>
-    
-        <button id="rnd-button">Generate!</button>
-        <br><br>
-        <a href="index.html"> Return to home page? </a>     
+</head>
 
-        <script src="js/numbergen.js"></script>
-    </body>
+<body>
 
-    
-   
+
+    <h1> Random Number Generator.</h1>
+    <p> Hello there! Here is a 4x4 table that generates <em>random</em> numbers <strong>from 0 to 256</strong> for you!
+    </p>
+
+
+    <div class="matrix">
+        <table class="table-space-out" id="rnd-table">
+            <tr>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+        </table>
+    </div>
+
+
+
+    <h3>To generate some random numbers, simply click the button below.</h3>
+
+
+    <button class="large-font" id="rnd-button">Generate!</button>
+
+
+    <br><br>
+    <a href="index.html"> Return to home page? </a>
+
+    <div class="pic-caption">
+        <br><br><br>
+        <td><img src="images/die.png" alt="images/die.png" width="200"></td>
+        <p>Figure 1. A pair of dice. Rolling dice has been a method of obtaining seemingly random numbers for many ages.
+        </p>
+        <br><br><br>
+    </div>
+
+    <div class="pic-caption">
+        <br><br><br>
+        <td><img src="images/quarter.png" alt="images/quarter.png" width="200"></td>
+        <p>Figure 2. A United States quarter. Flipping a coin like this has also always been a popular way of making
+            binary decisions.</p>
+        <br><br><br>
+    </div>
+
+    <div class="pic-caption">
+        <br><br><br>
+        <td><img src="images/js.png" alt="images/js.png" width="360"></td>
+        <p>Figure 3. JavaScript. This random number generator was written in JavaScript.</p>
+        <br><br><br>
+    </div>
+
+
+
+
+
+
+
+    <script src="js/numbergen.js"></script>
+</body>
+
+
+
 </html>
