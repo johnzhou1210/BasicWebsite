@@ -1,20 +1,59 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="css/styles.css">
+        <title> Random number generator </title>
+       
     </head>
-    <title>Page 1</title>
     
-    <h1> You are currently on Page 1.</h1>
-    <p> Hello there! Here is a 9x9 table that generates <em>random</em> numbers <strong>from 1 to 20</strong> for you!</p>
 
-
-    <table>
+    <body>
         
-    </table>
 
+        <h1> Random Number Generator.</h1>
+        <p> Hello there! Here is a 4x4 table that generates <em>random</em> numbers <strong>from 0 to 256</strong> for you!</p>
+    
+    
+        <div class="matrix">
+            <table id="rnd-table">
+                <tr>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+            </table>
+        </div>
+       
+    
+    
+        <h3>To generate some random numbers, simply click the button below.</h3>
+    
+        <button id="rnd-button">Generate!</button>
+        <br><br>
+        <a href="index.html"> Return to home page? </a>     
 
-    <h3>To generate some random numbers, simply click the button below.</h3>
+        <script src="js/numbergen.js"></script>
+    </body>
 
-    <a href="index.html"> Return to home page? </a>
+    
+   
 </html>

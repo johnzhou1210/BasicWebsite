@@ -25,3 +25,10 @@ table {
     margin: auto;
     
 }
+
+.matrix, table,tr,td {
+   padding: 0px;
+   text-align: center;
+   font-size: xx-large;
+}
+
