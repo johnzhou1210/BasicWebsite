@@ -28,13 +28,13 @@ function updateLeadStatus() {
     const teamAReaction = document.querySelector("#team-a-reaction");
     const teamBReaction = document.querySelector("#team-b-reaction");
 
-    if (teamAScoreText.textContent > teamBScoreText.textContent) {
+    if (parseInt(teamAScoreText.textContent) > parseInt(teamBScoreText.textContent)) {
         leadStatus.textContent = "Team A is currently in the lead!"
         teamAReaction.getElementsByTagName('img')[0].src = "images/happy.png";
         teamBReaction.getElementsByTagName('img')[0].src = "images/sad.png";
         teamAReaction.getElementsByTagName('p')[0].innerText = "Team A is happy!"
         teamBReaction.getElementsByTagName('p')[0].innerText = "Team B is unhappy..."
-    } else if (teamBScoreText.textContent > teamAScoreText.textContent) {
+    } else if (parseInt(teamBScoreText.textContent) > parseInt(teamAScoreText.textContent)) {
         leadStatus.textContent = "Team B is currently in the lead!"
         teamAReaction.getElementsByTagName('img')[0].src = "images/sad.png";
         teamBReaction.getElementsByTagName('img')[0].src = "images/happy.png";
