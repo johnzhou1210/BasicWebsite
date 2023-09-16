@@ -12,7 +12,7 @@ ol {
     margin-right: auto;
 }
 
-table {
+.wide-spacing {
     border-spacing: 50px;
 }
 
@@ -37,3 +37,25 @@ table {
     font-family: 'Courier New', Courier, monospace;
 }
 
+.outlined-table {
+    border: 1px solid;
+    width: 50%;
+    
+}
+
+.table-wider {
+    width: 50%;
+}
+
+.large-button {
+    width: 120px;
+    height: 50px;
+}
+
+.large-font {
+    font-size: x-large;
+}
+
+.table-space-out {
+    border-spacing: 50px;
+}
